@@ -1,0 +1,27 @@
+.side{
+    text-align: center;
+    line-height: 250%;
+    width: 30%;
+    float: left ;
+}
+.poema{
+    line-height: 200%;
+    font-size: 15;
+    font-style: oblique;
+    
+}
+.side-left{
+    text-align: center;
+    width: 34%;
+    float: left ;
+}
+
+.side-right{
+    text-align: center;
+    width: 20%;
+    float: right; 
+    margin: 0%;
+}
+.title-poema{
+font-style: oblique;
+}
