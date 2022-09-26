@@ -83,7 +83,7 @@ padding-top: 50px;
 }
 
 .right-links li {
-    
+    text-decoration: none;
     display: inline-block;
     padding-bottom: 10px;
 }
