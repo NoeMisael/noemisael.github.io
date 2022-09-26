@@ -43,7 +43,7 @@ html {
 
 .navbar input {
     font-family: arial;
-    font-size: 13;
+    font-size: 14px;
     margin-right: 15px;
 
 }
@@ -61,13 +61,45 @@ html {
 }
 
 .left-contain {
-
-    height: 700px;
-    width: 70%;
+padding-top: 50px;
+    height: 870px;
+    width: 62%;
     background-color: white;
     float: left;
-    margin-left: 30px;
+    margin-left: 180px;
+    margin-bottom: 70px;
 }
+
+.left-contain p{
+    text-align: justify;
+    padding: 70px;
+}
+
+.right-links {
+    width: 320px;
+    float: right;
+
+
+}
+
+.right-links li {
+    
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.right-links p{
+font-size: 22px;
+color: #470547;
+}
+.right-links a {
+    text-decoration:none;
+    width: 100px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    color: rgb(145, 17, 177);
+}
+
 
 .footer {
     padding-left: 3%;
@@ -76,43 +108,16 @@ html {
     width: 97%;
     height: 300px;
 
-    margin: auto;
-
 }
 
 .columna {
+    padding-left: 40px;
     margin-top: 50px;
     float: left;
     background-color: blue;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    width: 32%;
-    height: 80px;
-    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    height: 180px;
     color: white;
-}
-
-.container {
-    justify-content: center;
-    max-width: 1140px;
-    min-width: 1000px;
-}
-
-.principal {
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.cont {
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    min-width: 25%;
-    -webkit-box-flex: 0;
-    flex: 0 0 25%;
-    max-width: 25%;
-
-
 }
