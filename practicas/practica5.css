@@ -1,0 +1,46 @@
+body {
+padding-left: 11em; /* Un relleno de 11em para dar lugar al menú */
+font-family: Georgia, "Times New Roman", Times, serif; /* Fuente */
+color: purple; /* Color de la fuente del documento */
+background-color: #d8da3d; /* Color de fondo del documento */
+}
+ul.navbar {
+list-style-type: none; /* Lista desordenada pero sin viñetas */
+padding: 0; /* La caja del menú no tundra relleno */
+margin: 0; /* La caja del menú no tendrá margen */
+position: absolute; /* La posición del menú fija desde esquina sup. izq. */
+top: 2em; /* ubicación vertical del menú */
+left: 1em; /* ubicación horizontal del menú */
+width: 9em; /* Anchura del menú */
+}
+
+ul.navbar li {
+background: white; /* Fondo de los elementos del menú es blanco */
+margin: 0.5em 0; /* Separación entre opciones del menú */
+padding: 0.3em; /* Relleno de cada caja del menú */
+border-right: 1em solid black; /* Adorno (cajita negra en opciones del menú */
+}
+ul.navbar li:hover {
+background: black;
+}
+ul.navbar a {
+text-decoration: none;
+}
+
+a:link {
+color: blue;
+}
+a:visited {
+color: purple;
+}
+a:hover {
+color : white;
+}
+a:active {
+color: purple;
+}
+address {
+margin-top: 1em;
+padding-top: 1em;
+border-top: thin dotted; /* El borde de arriba delgado y punteado */
+}
