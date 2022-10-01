@@ -1,0 +1,41 @@
+html,body{
+
+background-color: rgb(160, 165, 204);
+
+}
+
+.Autom{
+    background-color: blue;
+text-align: center;
+}
+
+.Dias{
+    background-color: darkcyan;
+}
+
+.Grafic{
+    background-color: rgb(199, 41, 186);
+    text-align: center;
+
+}
+
+.ProLogic{
+    background-color: rgb(246, 255, 254);
+    text-align: center;
+
+}
+.AdminRedes{
+    background-color: rgb(154, 255, 87);
+    text-align: center;
+
+}
+.CompNube{
+    background-color: rgb(54, 235, 78);
+    text-align: center;
+}
+
+.ProgWeb{
+    background-color: rgb(123, 148, 95);
+    text-align: center;
+
+}
