@@ -1,0 +1,24 @@
+body,html{
+
+    background-color: green;
+}
+
+input:valid{
+border: 1px solid red;
+
+}
+
+input:valid{
+border: 1px solid green;
+
+}
+
+
+input:required:invalid{
+
+    border: 1px solid red;
+}
+input:required:valid{
+
+    border: 1px solid green;
+}

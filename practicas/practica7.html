@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="practica7.css" type="css/text">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion de datos</title>
+</head>
+
+<body>
+
+
+    <div class="campos-validacion">
+        <h2>Llena el siguiente formulario</h2>
+        <form>
+
+            <input type="text" placeholder="Juan Pablo " name="Nombre" required /> <br> <br>
+            <input type="text" placeholder="Perez Antonio " name="Apellidos" required /> <br> <br>
+            <input type="email" placeholder="name@example.com" name="Correo Electronico" required> <br><br>
+            <label>selecciona un sexo</label>
+            <br>
+            <input type="text" name="selecionsexo" id="seleccionsexo" list="sexo"  required/>
+            <datalist id="sexo">
+                <option value="Masculino" />
+                <option value="Femenino" />
+                <option value="Otro" />
+            </datalist>
+            <br> <br>
+            <input type="submit" name="enviar" id="enviar">
+            <br><br>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
