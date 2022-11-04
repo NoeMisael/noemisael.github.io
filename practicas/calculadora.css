@@ -1,0 +1,31 @@
+input{font-size: calc(1em + 2vw);}  
+
+input[type="button"]{
+  border: 0;
+  width:5%;
+  margin:0.25%;
+}
+
+#salida{
+  background-color: #D4E6F1;
+  width:21.50%;
+  text-align: right;
+  margin:0.25%;
+  padding:5px;
+  border: 0;
+}
+.potencia{ background-color: #ABEBC6;}
+
+.digito{ background-color: #F9E79F; }
+
+.operador{ background-color: #ABEBC6; }
+
+#bi{ background-color: #F5B7B1; width:10.75%;}
+
+#breset{ background-color: #D5DBDB; width:10.75%;}
+
+#bp{ background-color: #D7BDE2; }
+
+#calculadora{ text-align:center;}
+
+
