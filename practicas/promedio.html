@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="promedio.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promedio</title>
+</head>
+
+<body>
+    <p>Favor de insertar los valores del arreglo</p>
+    <input type="text" value="" id="numeros" />
+    <button onclick="insert()">agregar</button>
+
+    <br>
+    <p>Datos del arreglo</p>
+    <input type="text" readonly id="numArray" />
+
+    <p> suma de valores</p>
+    <input readonly id="suma" type="text" size="6">
+    <br><br>
+    <p>Operaciones</p>
+    <button onclick="promedio()"> Promedio</button>
+    <input type="text" readonly id="resultProm" />
+
+    <br>
+
+    <br>
+
+
+    <table>
+        <tr>
+            <th rowspan="2">
+                <button onclick="calculos()"> Min-Max</button>
+            </th>
+            <th>Minimo
+            </th>
+            <th>Maximo</th>
+        </tr>
+        <td>
+            <input readonly id="minimo" class="min" />
+
+        </td>
+        <td> <input readonly id="maximo" class="max" />
+        </td>
+    </table>
+
+    <br>
+    <button onclick="moda()"> Moda</button>
+    <input readonly id="moda"> <br> <br>
+
+
+    <button onclick="mediana()">mediana</button>
+    <input readonly id="mediana"> <br>
+
+
+
+    <script src="promedio.js"></script>
+</body>
+
+</html>
