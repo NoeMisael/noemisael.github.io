@@ -1,0 +1,31 @@
+.value1 {
+    width: 485px;
+    height: 30px;
+    margin: 0;
+    background-color: rgb(127, 193, 255)
+}
+
+.value2 {
+    height: 30px;
+    width: 485px;
+    background-color: aquamarine;
+}
+
+.convert {
+    width: 557px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: yellow;
+    padding-left: 0;
+    margin-left: 0;
+    height: 35px;
+    width: 60px;
+}
+
+.select {
+    background-color: yellow;
+}

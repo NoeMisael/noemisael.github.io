@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Conversiones</title>  
-  </head>
-  <body >
-    
-    <input type="text" id="num" />
-    <select id="basex">
-      <option value="2">BIN</option><option value="8">OCT</option>
-      <option value="10">DEC</option><option value="16">HEX</option>
-    </select><br />
-    <input type="text" id="convertido" />
-    <select id="basey">
-      <option value="2">BIN</option><option value="8">OCT</option>
-      <option value="10">DEC</option><option value="16">HEX</option>
-    </select><br />
-    <input type="button" value="Convertir" onclick="convertir();"/>
-    <script src="convertidor.js"></script>
-  </body>
+<head>
+  <link rel="stylesheet" href="convertidor.css" type="text/css">
+  <title>Conversiones</title>
+</head>
+
+<body>
+
+  <input class="value1" type="text" id="num" />
+  <select class="button" id="basex">
+    <option class="select" value="2">BIN</option>
+    <option class="select" value="8">OCT</option>
+    <option class="select" value="10">DEC</option>
+    <option class="select" value="16">HEX</option>
+  </select><br />
+  <input class="value2" type="text" id="convertido" />
+  <select class="button" id="basey">
+    <option class="select" value="2">BIN</option>
+    <option class="select" value="8">OCT</option>
+    <option class="select" value="10">DEC</option>
+    <option class="select" value="16">HEX</option>
+  </select><br />
+  <input class="convert" type="button" value="Convertir" onclick="convertir();" />
+  <script src="convertidor.js"></script>
+</body>
 
 </html>
