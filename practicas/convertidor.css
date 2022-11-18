@@ -19,6 +19,8 @@
 }
 
 .button {
+    text-align: center;
+    -webkit-appearance: none;
     background-color: yellow;
     padding-left: 0;
     margin-left: 0;
