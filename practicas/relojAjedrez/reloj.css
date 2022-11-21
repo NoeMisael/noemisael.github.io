@@ -1,0 +1,25 @@
+.reloj input {
+    text-align: right;
+    height: 40px;
+    width: 150px;
+}
+
+.set input {
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+}
+
+.set button {
+    height: 34px;
+    margin: 0px;
+}
+
+.cambio{
+    height: 50px;
+    width: 320px;
+}
+
+.ganador{
+    font-size: 24px;
+}

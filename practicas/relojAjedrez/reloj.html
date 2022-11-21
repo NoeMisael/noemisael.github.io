@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="reloj.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChessClock</title>
+</head>
+
+<body>
+<h1>Reloj de Ajedrez</h1>
+    <div class="set" id="setValue">
+        <p> ingresa el valor en el temporizador (valor en minutos) </p>
+        <input type="text" id="set">
+        <button id="set" onclick="set()">insertar</button>
+        <br> <br>
+    </div>
+    <div class="reloj">
+        <input type="text" readonly id="player1">
+        <input type="text" readonly id="player2">
+    </div>
+    <br>
+    <button onclick="change()" class="cambio">Cambio</button>
+    <br> <br>
+
+    <input type="text" class="ganador" readonly id="ganador"> </button>
+</body>
+<script src="reloj.js"></script>
+
+</html>
