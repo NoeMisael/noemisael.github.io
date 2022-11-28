@@ -109,7 +109,6 @@ function delay1() {
 }
 
 
-
 function change() {
     if (cambio == true) {
         clearInterval(tiempo);
